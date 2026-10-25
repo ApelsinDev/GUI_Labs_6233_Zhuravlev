@@ -1,0 +1,35 @@
+QMainWindow, QWidget#window { background: #10151d; }
+QLabel { background: transparent; color: #edf2f7; border: none; }
+QLabel#brand { color: #a8dbf5; font-size: 15px; font-weight: 700; }
+QLabel#badge { color: #a5bacb; background: #1c2b38; border: 1px solid #35495a; border-radius: 13px; padding: 7px 12px; font-size: 10px; }
+QLabel#title { font-size: 38px; font-weight: 800; }
+QLabel#subtitle { color: #a2b0c0; font-size: 14px; }
+QFrame#sleeve { background: #192632; border: 1px solid #314556; border-radius: 22px; }
+QLabel#sleeveTitle { color: #bed4e4; font-size: 11px; font-weight: 700; }
+QLabel#sync { color: #a8dbf5; font-size: 10px; }
+QLabel#timeSignature { color: #a8dbf5; font-size: 45px; font-weight: 800; }
+QLabel#sleeveCaption { color: #91aabb; font-size: 11px; }
+QFrame#numberCard { border: 1px solid transparent; border-radius: 18px; }
+QFrame#numberCard[accent="lime"] { background: #ffc48f; }
+QFrame#numberCard[accent="purple"] { background: #c6b4fa; }
+QFrame#numberCard[accent="peach"] { background: #a8dbf5; }
+QLabel#cardTitle { color: #262721; font-size: 15px; font-weight: 700; }
+QLabel#cardIndex { color: #4b503e; font-size: 11px; padding-right: 5px; }
+QLabel#cardHint { color: #4a453f; font-size: 10px; }
+QLabel#unitLabel { color: #373b2f; font-size: 14px; font-weight: 600; }
+QDoubleSpinBox { background: transparent; color: #1b2118; font-family: 'Consolas', 'DejaVu Sans Mono'; font-size: 43px; font-weight: 700; border: 1px solid transparent; border-radius: 7px; padding: 0px 3px; selection-background-color: #293420; selection-color: white; }
+QDoubleSpinBox:hover { background: rgba(255, 255, 255, 35); }
+QDoubleSpinBox:focus { border: 1px solid #4d5742; background: rgba(255, 255, 255, 45); }
+QPushButton#stepButton { background: rgba(17, 20, 17, 20); color: #23291d; font-size: 21px; border: 1px solid transparent; border-radius: 17px; }
+QPushButton#stepButton:hover { background: rgba(17, 20, 17, 40); }
+QPushButton#stepButton:pressed { background: rgba(17, 20, 17, 65); }
+QPushButton#stepButton:focus { border-color: #4d5742; }
+QLabel#presetLabel { color: #96a8b9; font-size: 10px; font-weight: 600; }
+QPushButton#presetButton { background: #1c2732; color: #c5d1dd; border: 1px solid #354858; border-radius: 18px; padding: 11px 18px; font-size: 12px; font-weight: 700}
+QPushButton#presetButton:hover { background: #2a4052; border-color: #83b8d6; }
+QPushButton#presetButton:checked { background: #a8dbf5; color: #172d3b; border-color: #a8dbf5; }
+QPushButton#presetButton:focus { border-color: #a8dbf5; }
+QFrame#rule { background: #2c3c4a; border: none; }
+QLabel#formula { color: #a7b9c8; font-size: 11px; }
+QLabel#footer { color: #93a7ba; font-size: 10px; }
+QToolTip { background: #263020; color: #e8f1dc; border: 1px solid #65754d; padding: 7px; }
