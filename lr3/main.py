@@ -1,4 +1,3 @@
-"""ЛР 3. Киноархив: QTableView, QSqlQueryModel и SQLite."""
 import sys
 from pathlib import Path
 

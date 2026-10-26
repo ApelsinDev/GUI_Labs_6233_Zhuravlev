@@ -1,4 +1,3 @@
-"""Круговой термометр: рисунок Qt обновляется вместе с полями."""
 from math import cos, sin, radians
 from PyQt5.QtCore import QPointF, QRectF, Qt, pyqtSlot
 from PyQt5.QtGui import QColor, QFont, QPainter, QPen

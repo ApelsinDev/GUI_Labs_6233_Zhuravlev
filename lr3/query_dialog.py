@@ -1,4 +1,3 @@
-"""Бонус: модальный диалог ввода собственного SQL-запроса."""
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QKeySequence
 from PyQt5.QtWidgets import (

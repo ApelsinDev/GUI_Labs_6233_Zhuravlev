@@ -1,4 +1,3 @@
-"""Проверка требований ЛР3 на настоящей SQLite и Qt, без внешних пакетов тестирования."""
 import os
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 import sqlite3

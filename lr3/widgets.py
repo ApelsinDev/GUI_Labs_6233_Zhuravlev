@@ -1,4 +1,3 @@
-"""Вкладка результата: SQL, табличное представление и количество строк."""
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
     QAbstractItemView, QFrame, QHBoxLayout, QHeaderView, QLabel,

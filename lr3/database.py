@@ -1,4 +1,3 @@
-"""Подключение к SQLite и получение результатов через QtSql."""
 from pathlib import Path
 from uuid import uuid4
 import re

@@ -1,8 +1,38 @@
 {
   "version": "0.2.0",
   "configurations": [
-    {"name": "ЛР 1", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/lr1/main.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
-    {"name": "ЛР 2 — Термостанция", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/lr2/main.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"},
-    {"name": "ЛР 3 — Киноархив", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/lr3/main.py", "console": "integratedTerminal", "cwd": "${workspaceFolder}"}
+    {
+      "name": "ЛР 1",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/lr1/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "ЛР 2 — Термостанция",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/lr2/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "ЛР 3 — Киноархив",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/lr3/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "ЛР 4 — Painter",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/lr4/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
   ]
 }
